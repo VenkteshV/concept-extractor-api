@@ -1,0 +1,13 @@
+exponential job queue decay times 0.30372201185745284
+exponential job queue decay 0.2742359466520634
+poisson stream intensity 0.2730010801530168
+busy queue periods start 0.24828346314511363
+queue busy periods start 0.20315447374017914
+multilinear queue 0.10196202700439488
+stream intensity 0.06067788640475311
+uniform resource allocation -0.0029150907053450506
+estimation -0.025786451272407862
+observations -0.033603366346612235
+individual servers -0.06814681598355042
+average job -0.1365285116784596
+times -0.19805665297059868

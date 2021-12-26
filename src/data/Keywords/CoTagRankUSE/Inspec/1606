@@ -1,0 +1,15 @@
+heuristic algorithm 0.13597969969809307
+computational comparison 0.12415960759606395
+exact dynamic programming 0.11577174054749437
+total resource consumption 0.10971078418972192
+algorithm 0.1059621630396419
+resource consumption 0.10543547561364837
+tardiness scheduling 0.09759320865067264
+linear function 0.08092685041241972
+job release date 0.08041756776487499
+single machine 0.07840099017597521
+dependent release dates 0.07731190737795621
+optimal solutions 0.05819169135729876
+dependent release 0.056605310197115184
+job release 0.05451754897935776
+tardiness penalties 0.03748544425385888

@@ -1,0 +1,15 @@
+temperature control slow temperature control 0.1418165229414325
+model predictive control 0.13849444863214563
+barrel temperature control 0.13431645986594332
+tight temperature control 0.11532395240441208
+multiple parameter pid 0.11368725674807728
+slow processes 0.08315930090855027
+performance specifications 0.0737435681702623
+extruders 0.0726213912598086
+fast startup 0.06746880546165883
+overshoot 0.058545970691566966
+temperature 0.05470156252100408
+pid 0.04976950672430094
+robust barrel 0.04564454671411032
+performance requirements 0.04219947937025712
+specifications 0.03977897182122304

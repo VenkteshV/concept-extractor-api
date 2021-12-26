@@ -1,0 +1,15 @@
+sparse multi - output regression models 0.25774849219710066
+multi - output regression models 0.25514899858071377
+regression model 0.2090772710178777
+multi - output regression 0.2065695407730486
+parsimonious model 0.1205829952249879
+algorithm 0.075358592717305
+good generalisation performance 0.054997140577290125
+data 0.04487697662771948
+model selection 0.03753334099058872
+ols 0.02332390605125943
+individual regularisation parameter 0.01643966607059622
+squares -0.02868522813367684
+lrols -0.0565230725191484
+regressor -0.05684999978653919
+ability -0.07978274206930477

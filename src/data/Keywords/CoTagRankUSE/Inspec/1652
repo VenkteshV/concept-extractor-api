@@ -1,0 +1,15 @@
+nonlinear degenerate parabolic 0.12776505636408855
+nonlinear parabolic 0.11910000258626766
+finite volume scheme 0.11105520904489878
+entropy process solution 0.10174215649669087
+model equation 0.10064145289435034
+entropy weak solution u 0.09372044412688073
+entropy solution 0.0928872707868005
+constant function u 0.0869135553554224
+piecewise 0.08461105022614908
+strong convergence 0.08234111945250551
+subsequence 0.08065879721554357
+degenerate equation u 0.07671167245695343
+convergence 0.07322628292876847
+numerical results 0.0355777123218878
+sub t/+div(qf(u)- delta phi 0.00891567666659528

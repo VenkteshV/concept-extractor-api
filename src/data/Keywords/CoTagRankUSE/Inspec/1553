@@ -1,0 +1,15 @@
+dimensional heat conduction problem 0.15509097787683487
+initial temperature distribution 0.14859321822882762
+transient temperature 0.10356066899130692
+heat conduction 0.10155325502351092
+implicit inversion method 0.09862473502381093
+related inverse problem 0.09101740034782471
+tikhonov regularization 0.08620423669544298
+regularization 0.08149314834472245
+inverse problem 0.07749686888127419
+numerical solution 0.07528279547637394
+numerical results 0.06331891729016467
+inversion process 0.059729248773350466
+direct heat 0.05333731646536805
+convergent 0.052515673650546275
+equation 0.05122039272218677

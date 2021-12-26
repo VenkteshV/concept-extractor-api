@@ -1,0 +1,15 @@
+monocular color traffic image sequences 0.12270749153837808
+monocular color traffic image 0.11539627902622593
+gradient density 0.08614242340794638
+luminance 0.08444521291940758
+inaccurate vehicle segmentation 0.06737924981695076
+shadow detection 0.06569662019672119
+vehicle edge pixels 0.05864733376615108
+neighboring scss 0.05816296862448745
+high scss 0.054310836221387764
+edge map 0.052325513790709384
+erroneous scene analysis 0.05225539289569829
+robust segmentation 0.05159431021588067
+stationary background 0.0479664509031209
+detection 0.04672331305327489
+probability map 0.0405659447969887

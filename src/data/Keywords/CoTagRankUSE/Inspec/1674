@@ -1,0 +1,15 @@
+service interval constraints 0.13720551551378737
+loose demand constraints 0.11336202119398288
+demand constraints 0.10523064164877746
+different delivery capacity 0.08786078456520359
+delivery planning 0.08317590952440043
+inhomogeneous service providers 0.07453605197103431
+natural integer programming model 0.07276362626985486
+service providers 0.07055039106100691
+column generation approach 0.06789971195868522
+overall costs 0.051520334521513174
+service provider 0.05118767616874896
+demand 0.048278202439668384
+deliveries 0.04405210560346379
+optimal solution 0.03874846367242036
+gaps 0.034871213155444704

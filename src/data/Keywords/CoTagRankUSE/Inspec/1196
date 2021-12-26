@@ -1,0 +1,15 @@
+stable implicit runge 0.11745852535057678
+ordinary differential equations 0.09720370213716768
+comparable gaussian method 0.09242085224079895
+lobatto ia formulae 0.09075850930833451
+ode integrator 0.07965906277650839
+kutta method 0.07785315253169067
+stable integrator symdae encounters 0.07112902518572785
+algebraic variables 0.06774825071144051
+value integrator 0.06347335578483096
+algebraic equations 0.06262867009815613
+stable integrator 0.059975314722339634
+interval 0.04418855725226812
+integrator 0.04400292528195254
+differential 0.041312047388971825
+algebraic 0.03781557501732654

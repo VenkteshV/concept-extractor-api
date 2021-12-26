@@ -1,0 +1,15 @@
+continuous adjoint equation 0.1320251343177122
+piecewise constant classical controls 0.12138770691288335
+piecewise constant relaxed controls 0.11775953075597986
+differential equations 0.10548697515109601
+discrete state equation 0.10007959222280491
+optimal control problem 0.09696415715093118
+optimal control problems 0.08931200196436756
+appropriate trapezoidal schemes 0.08207738284243461
+relaxed state equation 0.0805425452145534
+adjoint 0.0755570851808787
+approximate relaxed descent method 0.07098123631044496
+trapezoidal scheme 0.06845998281800135
+continuous problem 0.061752388904661344
+control constraints 0.05637998684287056
+approximate derivative 0.04873601165729214

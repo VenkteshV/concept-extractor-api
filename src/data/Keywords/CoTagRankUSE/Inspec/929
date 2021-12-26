@@ -1,0 +1,15 @@
+active damping model 0.16704052294300528
+structural damping 0.14512930080457603
+passive damping 0.12354796929524525
+parametric study 0.11571655236834276
+active constrained layer 0.11054239073339436
+element modeling 0.08840120245381856
+acld model 0.08757997289090272
+loop model 0.08414096028463086
+viscoelastic material behavior 0.08285213116637133
+several acld models 0.07773542233728792
+viscoelastic layer 0.06824554556698724
+geometric parameters 0.06784877122670166
+time domain analysis 0.061203528111012255
+vibration 0.03442349968405463
+different control gains 0.027985624102410504

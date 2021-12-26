@@ -1,0 +1,15 @@
+explicit runge 0.12474744308663026
+ordinary differential equation 0.11750657942809382
+nonlinear boundary condition 0.11590486606580859
+parabolic problem 0.11223499419660891
+discrete approximation 0.10133310501495253
+kutta methods 0.09845174092019993
+time converges 0.09272420142668895
+adaptive time step procedure 0.08425755156993774
+numerical solution 0.07970784204091708
+numerical scheme 0.06450669574514652
+approximation 0.06325796883696548
+finite time 0.05736112654487763
+numerical blow 0.0373832102162599
+space variable 0.03187630798789549
+continuous one 0.03152643362337658
