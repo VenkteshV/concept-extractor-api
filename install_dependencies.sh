@@ -2,10 +2,11 @@
 # pip install git+https://github.com/boudinfl/pke --timeout=10000
 # pip install git+https://github.com/LIAAD/yake.git --timeout=10000
 # install requirements file
-pip install -r requirements.txt
-python -m nltk.downloader stopwords --timeout=10000
-python -m spacy download en_core_web_lg --timeout=10000
-python -m spacy download en --timeout=10000
+python3 -m pip install -r requirements.txt
+# pip install -r requirements.txt
+python3 -m nltk.downloader stopwords --timeout=10000
+python3 -m spacy download en_core_web_lg --timeout=10000
+python3 -m spacy download en --timeout=10000
 
 # uncomment build trec_eval not necessary as trec_eval executable is atatched with code and below command moves it to ur /usr/local/bin
 # mkdir temp_
@@ -36,7 +37,7 @@ sudo cp trec_eval /usr/local/bin/
 # make
 # pip install cython
 # cd src
-# python setup.py build_ext
+# python3 setup.py build_ext
 # pip install .
 # cd ../../
 # rm sent2vec
@@ -76,7 +77,6 @@ sudo cp trec_eval /usr/local/bin/
 # mv SemEval2010_lda.gz src/data/Models/Unsupervised/lda/
 # mv Inspec_lda.gz src/data/Models/Unsupervised/lda/
 # mv SemEval2017_lda.gz src/data/Models/Unsupervised/lda/
-python -m spacy download en
-# python train_lda.py
+python3 -m spacy download en
+# python3 train_lda.py
 # mv keyphrase_expansion_lda.gz src/data/Models/Unsupervised/lda/
-

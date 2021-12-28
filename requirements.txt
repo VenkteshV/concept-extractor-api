@@ -25,4 +25,6 @@ fastapi
 uvicorn
 strsim
 pyngrok
-#sentence_transformers==1.2.0
+networkx
+segtok
+yake

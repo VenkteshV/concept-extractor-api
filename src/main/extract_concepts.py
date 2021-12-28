@@ -12,23 +12,33 @@ import os
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
-def extract_concepts(text_1):
-    nlp = spacy.load('en_core_web_sm')
-    # corenlp = StanfordNLPLanguage(stanfordnlp.Pipeline(lang="en"))
+
+nlp = spacy.load('en_core_web_sm')
+
+
+
+pathData = os.path.join(dir_path, '../data')
+dataset_name = 'Inspec'
+normalization = None
+numOfKeyphrases = 10
+
+CoTagRankUSE_object = CoTagRankUSE(numOfKeyphrases, pathData, dataset_name, normalization)
+
+def extract_concepts(text_1):    # corenlp = StanfordNLPLanguage(stanfordnlp.Pipeline(lang="en"))
     with open(dir_path+'/evaluation/en_kp_list', 'r', encoding='utf-8') as f:
         lists = f.read().split('\n')
         print('load kp_list done.')
-    pathData = os.path.join(dir_path, '../data')
-    dataset_name = 'Inspec'
-    normalization = None
-    numOfKeyphrases = 10
+    # pathData = os.path.join(dir_path, '../data')
+    # dataset_name = 'Inspec'
+    # normalization = None
+    # numOfKeyphrases = 10
 
     expand = False
     corenlp_grammar = PhraseExtractor(grammar =  "GRAMMAR1",np_method="GRAMMAR",
             np_tags = "NLTK",
             stopwords = "NLTK", nlp = init_nlp({"name":"spacy" , "model_name": "en_core_web_sm"}))
-    CoTagRankUSE_object = CoTagRankUSE(numOfKeyphrases, pathData, dataset_name,
-                                                            normalization)
+    # CoTagRankUSE_object = CoTagRankUSE(numOfKeyphrases, pathData, dataset_name,
+    #                                                         normalization)
 
 
     keywords,_ = CoTagRankUSE_object.ExtractKeyphrases(text_1, highlight=True,  expand=expand)
@@ -41,7 +51,6 @@ def extract_concepts(text_1):
 
 
 def expand_concepts(text_1):
-    nlp = spacy.load('en_core_web_sm')
     # corenlp = StanfordNLPLanguage(stanfordnlp.Pipeline(lang="en"))
     with open(dir_path+'/evaluation/en_kp_list', 'r', encoding='utf-8') as f:
         lists = f.read().split('\n')
